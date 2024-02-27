@@ -44,14 +44,22 @@ body {
 }
 
 .apresentacao__imagem {
+    display: flex;
+    justify-content: space-between;
     margin: 0px 17px 0px 17px;
-    padding: 5px;
+    padding: 10px;
     border: thin solid;
     border-color: var(--cor-terciaria);
     border-width: 0.6dvh;
+    max-width: 300px;
+    min-width: 400px;
+    gap: 200px;
 }
 
 .apresentacao__conteudo {
-    height: 150px;
-    width: 20%;
+    max-width: 300px;
+    min-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
 }
